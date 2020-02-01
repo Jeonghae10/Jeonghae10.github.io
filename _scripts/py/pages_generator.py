@@ -107,6 +107,7 @@ def generate_category_pages(is_verbose):
 
     for category in categories:
         new_page = path + '/' + category.replace(' ', '-').lower() + '.html'
+        
         with open(new_page, 'w+', encoding='utf-8') as html:
             html.write("---\n")
             html.write("layout: {}\n".format(CATEGORY_LAYOUT))
