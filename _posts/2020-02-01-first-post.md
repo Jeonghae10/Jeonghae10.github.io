@@ -1,6 +1,6 @@
 ---
 title: "블로그를 시작하며..."
-date: 2020-02-01 22:20:00 +0800
+date: 2020-02-01 01:20:00
 categories: [ Story, diary]
 tags: [blog, diary, start]
 ---
