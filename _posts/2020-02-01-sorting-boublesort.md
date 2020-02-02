@@ -1,7 +1,7 @@
 ---
 title: "[알고리즘]기본정렬01. 버블정렬(bubble sort)"
 date: 2020-02-01 01:00:00
-categories: [Algorithm, 알고리즘이론]
+categories: [Algorithm, Algorithm_theory]
 tags: [algorithm, sorting, bubble sort, 알고리즘, 버블정렬]
 ---
 ## 목표
@@ -23,7 +23,7 @@ tags: [algorithm, sorting, bubble sort, 알고리즘, 버블정렬]
 
 * 특징
   - 구현이 간단하지만 시간복잡도가 O(n^2)으로 매우 느리다.
-  
+
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" width=600/>
 
