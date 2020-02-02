@@ -24,9 +24,8 @@ tags: [algorithm, sorting, bubble sort, 알고리즘, 버블정렬]
 * 특징
   - 구현이 간단하지만 시간복잡도가 O(n^2)으로 매우 느리다.
 
-```HTML
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" width=600/>
-```
+![](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
+
 
 > 출처: <https://en.wikipedia.org/wiki/Bubble_sort>
 
