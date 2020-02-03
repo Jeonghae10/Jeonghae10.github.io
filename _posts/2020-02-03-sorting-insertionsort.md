@@ -21,7 +21,7 @@ tags: [algorithm, sorting, insertion sort, 알고리즘, 삽입정렬]
 [퀵정렬]:/posts/sorting-quicksort
 [병합정렬]:/posts/sorting-mergesort
 ------------------------------------------------------
-### 삽입 정렬(insertion sort)이란 ?
+### 1. 삽입 정렬(insertion sort)이란 ?
 
 * 데이터의 모든 요소를 앞에서부터 차례대로 이미 정렬된 부분과 비교하여 자신의 위치에 삽입하는 정렬 알고리즘
   1. 두번째 인덱스부터 시작한다
@@ -51,7 +51,7 @@ tags: [algorithm, sorting, insertion sort, 알고리즘, 삽입정렬]
     + 9 정렬 완료 [**9**, 20, 12, 5]
   - 2회전
     + key : 12
-    + 앞에 있는 데이터 20 과 비교 : 12(key)가 작으므로 20 shift [9,  , <U>20</U>, 5]
+    + 앞에 있는 데이터 20 과 비교 : 12(key)가 작으므로 20 shift [9,&nbsp;, <U>20</U>, 5]
     + 그 다음 앞에 있는 데이터 9 와 비교 : 12(key)가 크므로 9 뒤에 12 삽입
     + 9, 12 정렬 완료 [**9**, **12**, 20, 5]
   - 3회전
@@ -61,9 +61,9 @@ tags: [algorithm, sorting, insertion sort, 알고리즘, 삽입정렬]
     + 9, 12, 20 정렬 완료 [**9**, **12**, **20**, 5]
   - 4회전
     + key : 5
-    + 앞에 있는 데이터 20 과 비교 : 5(key)가 더 작으므로 20 shift [9, 12,  , <U>20</U>]
-    + 그 다음 앞에 있는 데이터 12 와 비교: 5(key)가 더 작으므로 12 shift [9, , <U>12</U>, 20]
-    + 그 다음 앞에 있는 데이터 9 와 비교: 5(key)가 더 작으므로 9 shift [  ,<U>9</U>, 12, 20]
+    + 앞에 있는 데이터 20 과 비교 : 5(key)가 더 작으므로 20 shift [9, 12, &nbsp; , <U>20</U>]
+    + 그 다음 앞에 있는 데이터 12 와 비교: 5(key)가 더 작으므로 12 shift [9, &nbsp; , <U>12</U>, 20]
+    + 그 다음 앞에 있는 데이터 9 와 비교: 5(key)가 더 작으므로 9 shift [ &nbsp; ,<U>9</U>, 12, 20]
     + 더 이상 비교 대상 없으므로 5를 맨 앞자리에 삽입
     + 전체 정렬 완료 [**5**, **9**, **12**, **20**]
 
@@ -83,9 +83,9 @@ def inserted_sort(data):
             j -= 1
         data[j] = key
 
-data_list = [9, 20, 12, 5]      # 결과 [5, 9, 12, 20]
-inserted_sort(data_list)
-print(data_list)
+  data_list = [9, 20, 12, 5]      # 결과 [5, 9, 12, 20]
+  inserted_sort(data_list)
+  print(data_list)
 ```   
 
 ### 4. 삽입 정렬(insertion sort) 시간 복잡도
@@ -93,10 +93,10 @@ print(data_list)
 * n(n-1)/2 번 비교 및 교환= O(n^2)
 * 이미 정렬되어 있는 경우라면 n-1번 비교
   - O(n)
-  
+
 ------------------------------------------------
 ## 참고자료
 > * <https://fun-coding.org>
 > * [삽입정렬-위키백과]
 
-[선택정렬-위키백과]:https://ko.wikipedia.org/wiki/%EC%82%BD%EC%9E%85_%EC%A0%95%EB%A0%AC
+[삽입정렬-위키백과]:https://ko.wikipedia.org/wiki/%EC%82%BD%EC%9E%85_%EC%A0%95%EB%A0%AC
