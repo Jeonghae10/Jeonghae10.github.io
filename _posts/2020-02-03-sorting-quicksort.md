@@ -13,7 +13,7 @@ tags: [algorithm, sorting, quick sort, 알고리즘, 퀵정렬]
 
 * 정렬(sorting)이란?
   - 정렬(sorting): 여러 데이터들이 주어졌을 때 이를 정해진 순서대로 나열하는 것
-  - 정렬 알고리즘의 종류 : [버블정렬], [선택정렬], [삽입정렬], [퀵정렬], [병합정렬] 등
+  - 정렬 알고리즘의 종류 : [버블정렬], [선택정렬], [삽입정렬], [퀵정렬], [합병정렬] 등
 
 * 분할 정복 기법(Divide and Conquer)이란 ?
   - 문제를 나눌 수 없을 때까지 나눈 후 각각을 풀고 다시 합병하여 문제를 해결하는 알고리즘
@@ -24,7 +24,7 @@ tags: [algorithm, sorting, quick sort, 알고리즘, 퀵정렬]
 [선택정렬]:/posts/sorting-selectionsort
 [삽입정렬]:/posts/sorting-insertionsort
 [퀵정렬]:/posts/sorting-quicksort
-[병합정렬]:/posts/sorting-mergesort
+[합병정렬]:/posts/sorting-mergesort
 
 ----------------------------------------------------------------
 
@@ -49,25 +49,25 @@ tags: [algorithm, sorting, quick sort, 알고리즘, 퀵정렬]
 * 데이터가 [19, 30, 49, 21, 11, 16, 15] 라고 가정하면(오름차순 정렬)
   - step 1
     + pivot : 19
-    ![quicksort_step1]({{"/assets/img/algorithm/quicksort_step1.png" | relative_url}})
+    ![quicksort_step1]({{"/assets/img/algorithm/quicksort/quicksort_step1.png" | relative_url}})
     + [11, 16, 15] , pivot(19) , [30, 49, 21]
-    ![quicksort_step1_result]({{"/assets/img/algorithm/quicksort_step1_result.png" | relative_url}})
+    ![quicksort_step1_result]({{"/assets/img/algorithm/quicksort/quicksort_step1_result.png" | relative_url}})
   - step 2
     + 첫번째 분할에서 나눠진 왼쪽, 오른쪽 데이터에 대해 각각 분할 반복
-    ![quicksort_step2]({{"/assets/img/algorithm/quicksort_step2.png" | relative_url}})
+    ![quicksort_step2]({{"/assets/img/algorithm/quicksort/quicksort_step2.png" | relative_url}})
     + 왼쪽 : [], pivot(11), [16, 15]
-    ![quicksort_step2_left]({{"/assets/img/algorithm/quicksort_step2_leftresult.png" | relative_url}})
+    ![quicksort_step2_left]({{"/assets/img/algorithm/quicksort/quicksort_step2_leftresult.png" | relative_url}})
     + 오른쪽 : [21], pivot(30), [49]
-    ![quicksort_step2_right]({{"/assets/img/algorithm/quicksort_step2_rightresult.png" | relative_url}})
+    ![quicksort_step2_right]({{"/assets/img/algorithm/quicksort/quicksort_step2_rightresult.png" | relative_url}})
   - step 3
     + 나눠진 리스트에 대해서 데이터의 길이가 0이나 1이 될 때까지 반복
     + [15], pivot(16), []
-    ![quicksort_step3]({{"/assets/img/algorithm/quicksort_step3.png" | relative_url}})
+    ![quicksort_step3]({{"/assets/img/algorithm/quicksort/quicksort_step3.png" | relative_url}})
   - 최종결과
-    ![quicksort_result]({{"/assets/img/algorithm/quicksort_result.png" | relative_url}})
+    ![quicksort_result]({{"/assets/img/algorithm/quicksort/quicksort_result.png" | relative_url}})
 
   - 전체 과정 한번에 보기
-   ![quicksort]({{"/assets/img/algorithm/quicksort.png" | relative_url}})
+   ![quicksort]({{"/assets/img/algorithm/quicksort/quicksort.png" | relative_url}})
 
 > [참고] 그림으로 이해하기 : <https://visualgo.net/en/sorting>
 

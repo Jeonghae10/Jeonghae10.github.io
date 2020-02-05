@@ -13,13 +13,13 @@ tags: [algorithm, sorting, insertion sort, 알고리즘, 삽입정렬]
 
 * 정렬(sorting)이란?
   - 정렬(sorting): 여러 데이터들이 주어졌을 때 이를 정해진 순서대로 나열하는 것
-  - 정렬 알고리즘의 종류 : [버블정렬], [선택정렬], [삽입정렬], [퀵정렬], [병합정렬] 등
+  - 정렬 알고리즘의 종류 : [버블정렬], [선택정렬], [삽입정렬], [퀵정렬], [합병정렬] 등
 
 [버블정렬]: /posts/sorting-bubblesort
 [선택정렬]:/posts/sorting-selectionsort
 [삽입정렬]:/posts/sorting-insertionsort
 [퀵정렬]:/posts/sorting-quicksort
-[병합정렬]:/posts/sorting-mergesort
+[합병정렬]:/posts/sorting-mergesort
 ------------------------------------------------------
 ### 1. 삽입 정렬(insertion sort)이란 ?
 
